@@ -12,6 +12,7 @@
     position: absolute;
     top: 10%;
     left: 10%;
+    color: white;
 }
 
 .loader::after {
@@ -33,4 +34,20 @@
     100% {
         transform: rotate(360deg);
     }
+}
+
+.error{
+    visibility: hidden;
+}
+
+.spanCat{
+    font-weight: bold;
+}
+
+.catCard{
+    display: block;
+    margin-left: 20px;
+}
+.cat-info{
+    display: flex;
 }

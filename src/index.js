@@ -30,8 +30,8 @@ refs.select.addEventListener('change', () => {loadProgErr(true), fetchCatByBreed
 function markupCatCard(urlImg, catInfo) {
     const { name, description, temperament } = catInfo;
 
-    refs.container.innerHTML = `<img src="${urlImg}" alt="${name}" width="500px"><div>
-    <H2>${name}</H2><p>${description}</p><p><span>Temperament: </span>${temperament}</p></div>`;
+    refs.container.innerHTML = `<img src="${urlImg}" alt="${name}" width="500px"><div class="catCard">
+    <H2>${name}</H2><p>${description}</p><p><span class="spanCat">Temperament: </span>${temperament}</p></div>`;
 }
 
 
